@@ -173,7 +173,7 @@ Try {
 		}
 		
 		# <Perform Uninstallation tasks here>
-		
+		Execute-MSI -Action "Uninstall" -Path "{ECF2E224-42F5-4E50-B58E-94CA70E85697}"
 		
 		##*===============================================
 		##* POST-UNINSTALLATION
